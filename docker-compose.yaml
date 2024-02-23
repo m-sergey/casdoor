@@ -15,6 +15,6 @@ services:
     restart: always
     image: postgres:16
     environment:
-      - POSTGRES_DB=keycloak
-      - POSTGRES_USER=keycloak
-      - POSTGRES_PASSWORD=keycloak
+      - POSTGRES_DB=casdoordb
+      - POSTGRES_USER=casdoor
+      - POSTGRES_PASSWORD=casdoor
